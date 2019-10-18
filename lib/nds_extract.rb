@@ -8,10 +8,13 @@ def directors_totals(nds)
   #
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
-  result = {
-  }
   
+  result = {}
   dir_db_ar_index = 0 
+  dir_name = directors_database[dir_db_ar_index][:name]
+  
+  while dir_db_ar_index < directors_database.length do
+    
   
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
