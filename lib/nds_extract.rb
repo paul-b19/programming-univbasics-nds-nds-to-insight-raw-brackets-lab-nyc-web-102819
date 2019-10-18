@@ -10,8 +10,10 @@ def directors_totals(nds)
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   
   result = {}
-  dir_db_ar_index = 0 
+  dir_db_ar_index = 0
+  # movies_index = 0
   dir_name = directors_database[dir_db_ar_index][:name]
+  movie_gross = directors_database[dir_db_ar_index][]
   
   while dir_db_ar_index < directors_database.length do
     
