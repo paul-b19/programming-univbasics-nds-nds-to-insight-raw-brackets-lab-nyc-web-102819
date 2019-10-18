@@ -25,6 +25,7 @@ def directors_totals(nds)
     dir_db_ar_index += 1 
   end
   
+  pp result
   result
   
   # Use loops, variables and the accessing method, [], to loop through the NDS
